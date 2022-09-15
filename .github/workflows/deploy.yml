@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-jobs:
+  jobs:
   deploy:
     name: deploy app
     runs-on: ubuntu-latest
